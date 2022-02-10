@@ -370,6 +370,7 @@ Databases Year 2 Semester 1 final CA project
     <tr>
         <td>Booking ID</td>
         <td>VARCHAR2(10) NOT NULL</td>
+        <td></td>
     </tr>
     <tr>
         <td>Restaurant ID</td>
@@ -530,15 +531,15 @@ Databases Year 2 Semester 1 final CA project
 ## Present ERD
 
 - Logical Model
-- 
+
 ![Sketch](assets/logicalModel.png)
 
 - Physical Model
-- 
+
 ![Sketch](assets/physicalModel.png)
 
 - Oracle ERD:
-- 
+
 ![Sketch](assets/oracleERD.png)
   
 ## Unique / Check constraints
