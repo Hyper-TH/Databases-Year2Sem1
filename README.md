@@ -1,6 +1,39 @@
 # Databases-Year2Sem1
 Databases Year 2 Semester 1 final CA project
 
+# Case Study
+<p>
+    Burger Shack is a franchise with a chain of restaurants around Ireland. Due to COVID-19 protocols for <br>
+    contract tracing, the company needs to create a database that can store relevant details on customers, <br>
+    waiting staff and managers at every restaurant branch around the country. <br>
+    Each Burger Shack restaurant has a unique numeric restaurant identifier, address and a phone number. <br> 
+    Customers who wish to book a table can either make a booking online, by phone or walk into one of the <br>
+    restaurants and talk to a manager who can complete the table booking with them in person. <br>
+    When a customer books a table at any Burger Shack restaurant, they must provide the following <br>
+    information: their name, address, and email address each of which will be stored and cannot be missing. <br>
+    The customer must also provide their age which must be over 18. The customer is assigned a unique <br>
+    identifier, customer number. <br><br>
+    The main customer making the booking is also assigned a booking receipt which includes a booking ID <br>
+    number and details of the time of the table booking and number of people at the table. Due to COVID <br>
+    restrictions, there cannot be more than 6 people at a table and the table cannot be booked for more <br>
+    than 2 hours. A customer can have many bookings with Burger Shack but each booking is for one <br>
+    customer. <br><br>
+    Each table in every restaurant has a unique number and details of the type table and its location in the <br>
+    restaurant. There are four types of table (2, 4, 6 and 8 seater) and 2 locations (window or interior). <br>
+    When the party arrive at the restaurant, they are shown to their table and details of each person at the <br>
+    table must be recorded and stored in the database for contact tracing. The table number, name, email <br>
+    address, phone number of every other guest (apart from the main customer who has already given this <br>
+    information) must be provided. <br><br>
+    The details of the waiter and manager who served the table must also be recorded. Burger Shack Staff <br>
+    are assigned to a particular restaurant branch, their location is stored as part of their employment <br>
+    record. All restaurant staff have a unique identifier. Their name, address, phone number, email address, <br>
+    date of birth and start date of employment Burger Shack are also stored. All staff email addresses must <br>
+    be their company email (ending with @burgershack.com). <br><br>
+    In order to ensure compliance with government regulations, customers will be fined if they stay longer <br>
+    than the 2 hour maximum time limit. A penalty bill is sent to the customers which is calculated as 5 euro <br>
+    per minute that they overstayed beyond the time limit.<br>
+</p>
+
 ### Group Members:
 - Twila Habab C20361521
 - Jaycel Estrellado C20372876
